@@ -4,12 +4,13 @@ body {
 
 .pricing-area {
   display: flex;
+flex-wrap:wrap;
   justify-content: center; margin-top:65px;
 }
 
 .pricing-table {
-  display: inline-block;
-  padding: 35px 15px 35px 15px;
+  display: block;
+  padding: 35px 15px;
   margin: 15px;
   width: 275px;
   border-radius: 10px;
